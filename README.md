@@ -5,8 +5,9 @@ I ran into a problem with the docker subnet (IP address conflict), and in this r
 Put the file daemon.json in /etc/docker.
 
 ## restart docker
- - sudo systemctl restart docker
-
+```
+sudo systemctl restart docker
+```
 When you restart Docker, it will use your custom default subnet to execute the app in the container.
 
 
